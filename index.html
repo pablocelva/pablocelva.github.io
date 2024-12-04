@@ -16,9 +16,9 @@
         <nav id="nav-menu">
             <a href="#">Home</a>
             <a href="#">Portafolio</a>
-            <a href="#">Servicios</a>
+            <a href="#servicios">Servicios</a>
             <a href="#">Acerca de</a>
-            <a href="#">Contacto</a>
+            <a href="#contact">Contacto</a>
         </nav>
     </header>
     <section class="home">
@@ -41,11 +41,112 @@
                 <a href="https://pablocelva.itch.io/" target="_blank"><i class="fa-brands fa-itch-io"></i></a>
                 <a href="https://soundcloud.com/pablo-lambert-espinoza" target="_blank"><i class="fa-brands fa-soundcloud"></i></a>
                 <a href="https://www.instagram.com/celvanegra" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <!-- <a href="" target="_blank"><i class="fa-brands fa-google"></i></a> -->
+                <a href="#" onclick="copiarCorreo()"><i class="fa-brands fa-google"></i></a>
             </div>
-            <!-- <a href="#" class="btn">Contacto</a> -->
-            <button class="btn" onclick="copiarCorreo()">Contacto</button>
+            <a href="#contact" class="btn">Contacto</a>
+            <!-- <button class="btn" onclick="copiarCorreo()">Contacto</button> -->
         </section>
-        <script src="script.js"></script>
+
+        <section class="services" id="servicios">
+            <div class="content">
+                <div class="title"><span>Servicios</span></div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <div class="topic">Desarrollo Web</div>
+                        <p>Creo sitios web funcionales y visualmente atractivos, adaptados para brindar una experiencia única en cualquier dispositivo.</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa fa-paint-brush"></i>
+                        </div>
+                        <div class="topic">Diseño de UI/UX</div>
+                        <p>Me enfoco en diseñar interfaces intuitivas y experiencias que conecten con las personas de manera natural.</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="topic">Desarrollo Front-end</div>
+                        <p>Transformo ideas en interfaces interactivas, asegurándome de que cada detalle esté optimizado para el usuario.</p>
+                    </div>
+                    <!-- <br> -->
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="topic">Desarrollo Back-end</div>
+                        <p>Doy vida a las funcionalidades que no se ven, creando sistemas sólidos y eficientes para proyectos web y apps.</p>    
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="topic">Desarrollo Videojuegos</div>
+                        <p>Diseño mundos interactivos y narrativas inmersivas que inviten a los jugadores a explorar y disfrutar.</p>    
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <div class="topic">Composición Musical</div>
+                        <p>Compongo música original que puede acompañar tus proyectos y transmitir emociones auténticas.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="contact" id="contact">
+            <div class="content">
+                <div class="title"><span>Contacto</span></div>
+                <div class="form">
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" placeholder="" required>
+                            <label>Nombre</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" placeholder="" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" placeholder="" required>
+                            <label>Telefono</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea placeholder="" required></textarea>
+                            <label class="label-mensaje">Mensaje</label>
+                            <button class="btn" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="text">
+                <span>Creado por <a href="#">Pablo Lambert</a></span>
+                <div class="info">
+                    <p>Creo en el poder de las ideas y en el proceso de convertirlas en algo valioso.</p>
+                    <p>Si quieres colaborar o necesitas ayuda, aquí estoy para trabajar contigo.</p>
+                    <br>
+                    <!-- <p>© 2024 Pablo Lambert. Todos los derechos reservados.</p> -->
+                    <p>Encuéntrame en redes sociales para ver más de mi trabajo.</p>
+                    <br>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/pablolambert/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/pablocelva" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.behance.net/pablolambert1" target="_blank"><i class="fa-brands fa-behance"></i></a>
+                        <a href="https://pablocelva.itch.io/" target="_blank"><i class="fa-brands fa-itch-io"></i></a>
+                        <a href="https://soundcloud.com/pablo-lambert-espinoza" target="_blank"><i class="fa-brands fa-soundcloud"></i></a>
+                        <a href="https://www.instagram.com/celvanegra" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <!-- <a href="" target="_blank"><i class="fa-brands fa-google"></i></a> -->
+                        <a href="#" onclick="copiarCorreo()"><i class="fa-brands fa-google"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <script src="script.js"></script>
 </body>
 </html>
