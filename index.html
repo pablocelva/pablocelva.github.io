@@ -98,27 +98,29 @@
             </div>
             
         </section>
-        <section class="contact" id="contact">
+        <section class="contact">
             <div class="content">
                 <div class="title"><span>Contacto</span></div>
                 <div class="form">
-                    <form action="">
+                    <form  id="contactform" action="https://formspree.io/f/xdoqwpaz" method="POST">
                         <div class="input-group">
-                            <input type="text" placeholder="" required>
+                            <input id="name" name="name" type="text" placeholder="" required>
                             <label>Nombre</label>
                         </div>
                         <div class="input-group">
-                            <input type="email" placeholder="" required>
+                            <input id="email" name="_replyto" type="email" placeholder="" required>
                             <label>Email</label>
                         </div>
-                        <div class="input-group">
+                        <!-- <div class="input-group">
                             <input type="text" placeholder="" required>
                             <label>Telefono</label>
-                        </div>
+                        </div> -->
                         <div class="input-group">
-                            <textarea placeholder="" required></textarea>
+                            <textarea id="comments" name="message" placeholder="" required></textarea>
                             <label class="label-mensaje">Mensaje</label>
                             <button class="btn" type="submit">Enviar</button>
+                            <input type="hidden" name="_next" value="//peek.solutions/confirmation.html" />
+                            <input type="text" name="_gotcha" style="display:none" />  
                         </div>
                     </form>
                 </div>

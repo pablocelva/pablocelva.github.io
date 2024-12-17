@@ -31,7 +31,7 @@ function copiarCorreo() {
     const correo = "pablomartin.lambert@gmail.com"
     navigator.clipboard.writeText(correo)
     .then(() => {
-        alert("C✨📧 ¡Correo copiado al portapapeles! 🌿✨")
+        alert("✨📧 ¡Correo copiado al portapapeles! 🌿✨")
         })
     .catch((err) => {
         console.error('Error copiando el correo: ', err);
