@@ -251,6 +251,7 @@ span {
     font-size: 4rem;
     font-weight: 600;
     color: var(--primary-color);
+    margin-top: 3rem;
     margin-bottom: 3rem;
     display: inline-block;
     animation: fadeInDown 0.8s ease;
@@ -310,6 +311,7 @@ span {
     font-weight: 700;
     color: var(--primary-color);
     margin-bottom: 3rem;
+    margin-top: 3rem;
     text-align: center;
 }
 
